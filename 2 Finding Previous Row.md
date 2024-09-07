@@ -1,4 +1,4 @@
-## `LAG` : To find the previous row
+## `LAG()` : To find the previous row
 
 ## Use :-
 A window function that provides access to a row at a specified physical offset that comes before the current row within a result set.
