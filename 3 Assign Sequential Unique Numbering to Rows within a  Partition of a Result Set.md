@@ -1,12 +1,12 @@
 # `ROW_NUMBER()`: To assign a unique sequential integer to rows within a partition of a result set, starting at 1 for the first row in each partition.
 
-## Use:
+## Use :-
 Generates a unique row number for each row within a partition of a result set. The numbering is reset for each partition.
 
-## Example Usage:
+## Example Usage :-
 `ROW_NUMBER() OVER (PARTITION BY column_name ORDER BY another_column_name)`
 
-## Example Full SQL Query Code:
+## Example Full SQL Query Code :-
 ```sql
 DELETE FROM Person 
 WHERE id IN (
@@ -17,3 +17,6 @@ WHERE id IN (
     ) a 
     WHERE a.rn > 1
 );
+```
+## Problem Link :-
+https://leetcode.com/problems/delete-duplicate-emails/
