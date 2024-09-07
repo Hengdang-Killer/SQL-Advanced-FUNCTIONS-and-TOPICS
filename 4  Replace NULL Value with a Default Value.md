@@ -13,7 +13,7 @@ SELECT
 FROM 
     Customer cs
 WHERE 
-    COALESCE(cs.referee_id, 0) != 2;SCE(cs.referee_id, 0) != 2;
+    COALESCE(cs.referee_id, 0) != 2;
 ```
 ## Problem Link :-
 https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/
